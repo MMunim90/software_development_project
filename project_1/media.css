@@ -1,0 +1,32 @@
+
+@media only screen and (min-width: 400px) and (max-width: 767px) {
+    body{
+        background-color: gray;
+    }
+
+    .service-title{
+        color: white;
+    }
+
+    .services{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    body{
+        background-color: rgb(159, 132, 132);
+    }
+
+    .service-title{
+        color: white;
+    }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1600px) {
+    body{
+        background-color: white;
+    }
+}
