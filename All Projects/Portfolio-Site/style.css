@@ -141,3 +141,28 @@ footer p{
     color:#fff;
     transform:translateY(-4px);
 }
+
+
+#portfolio{
+    background:#1b1b1b;
+}
+
+#portfolio .card{
+    background:#1f1f1f;
+    border:1px solid #555;
+}
+
+.project-img{
+    height:350px;
+    object-fit:cover;
+}
+
+.badge{
+    padding:10px 15px;
+    font-weight:500;
+}
+
+.carousel-control-next,
+.carousel-control-prev{
+    width:8%;
+}
