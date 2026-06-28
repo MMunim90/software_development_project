@@ -1,168 +1,187 @@
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 section {
-    scroll-margin-top: 80px;
+  scroll-margin-top: 80px;
 }
 
 body {
-    background: #ffffff;
+  background: #ffffff;
 }
 
 .navbar {
-    background: #1b1b1b !important;
+  background: #1b1b1b !important;
 }
 
 .navbar-nav .nav-link {
-    color: white !important;
-    margin-left: 10px;
-    transition: 0.3s;
+  color: white !important;
+  margin-left: 10px;
+  transition: 0.3s;
 }
 
 .navbar-nav .nav-link:hover {
-    color: #0dcaf0 !important;
+  color: #0dcaf0 !important;
 }
 
 .btn-info {
-    border-radius: 4px;
-    font-weight: 500;
+  border-radius: 4px;
+  font-weight: 500;
 }
 
-
-body{
-    background:#1b1b1b;
+body {
+  background: #1b1b1b;
 }
 
-.hero{
-    min-height:85vh;
-    display:flex;
-    align-items:center;
+.hero {
+  min-height: 85vh;
+  display: flex;
+  align-items: center;
 }
 
 .hero h1,
-.hero h2{
-    color:#00eaff;
+.hero h2 {
+  color: #00eaff;
 }
 
-.hero h4{
-    color:#fff;
-    font-weight:500;
+.hero h4 {
+  color: #fff;
+  font-weight: 500;
 }
 
-.hero p{
-    line-height:1.7;
+.hero p {
+  line-height: 1.7;
 }
 
-.image-box{
-    width:300px;
-    margin:auto;
-    border:2px solid rgba(255,255,255,.3);
-    padding:10px;
+.image-box {
+  width: 300px;
+  margin: auto;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  padding: 10px;
 }
 
-.image-box img{
-    width:100%;
-    display:block;
+.image-box img {
+  width: 100%;
+  display: block;
 }
 
-.social-icon{
-    color:#00eaff;
-    font-size:28px;
-    text-decoration:none;
-    transition:.3s ease;
+.social-icon {
+  color: #00eaff;
+  font-size: 28px;
+  text-decoration: none;
+  transition: 0.3s ease;
 }
 
-.social-icon:hover{
-    color:#ffffff;
-    transform:translateY(-3px);
+.social-icon:hover {
+  color: #ffffff;
+  transform: translateY(-3px);
 }
 
-.btn-info{
-    font-weight:600;
-    border-radius:4px;
+.btn-info {
+  font-weight: 600;
+  border-radius: 4px;
 }
 
-footer{
-    background:#1b1b1b;
+footer {
+  background: #1b1b1b;
 }
 
-footer p{
-    color:#ffffff;
+footer p {
+  color: #ffffff;
 }
 
-.social-icon{
-    color:#00eaff;
-    font-size:2rem;
-    text-decoration:none;
-    transition:all .3s ease;
+.social-icon {
+  color: #00eaff;
+  font-size: 2rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
 }
 
-.social-icon:hover{
-    color:#ffffff;
-    transform:translateY(-5px);
+.social-icon:hover {
+  color: #ffffff;
+  transform: translateY(-5px);
 }
 
-
-#contact{
-    background:#1b1b1b;
+#contact {
+  background: #1b1b1b;
 }
 
-#contact .card{
-    background:#252525 !important;
-    border-radius:12px;
+#contact .card {
+  background: #252525 !important;
+  border-radius: 12px;
 }
 
-#contact .form-control{
-    background:#1b1b1b;
-    border:1px solid #444;
-    color:#fff;
+#contact .form-control {
+  background: #1b1b1b;
+  border: 1px solid #444;
+  color: #fff;
 }
 
-#contact .form-control::placeholder{
-    color:#9b9b9b;
+#contact .form-control::placeholder {
+  color: #9b9b9b;
 }
 
-#contact .form-control:focus{
-    background:#1b1b1b;
-    color:#fff;
-    border-color:#0dcaf0;
-    box-shadow:none;
+#contact .form-control:focus {
+  background: #1b1b1b;
+  color: #fff;
+  border-color: #0dcaf0;
+  box-shadow: none;
 }
 
-.social-icon{
-    color:#0dcaf0;
-    font-size:1.7rem;
-    transition:.3s;
-    text-decoration:none;
+.social-icon {
+  color: #0dcaf0;
+  font-size: 1.7rem;
+  transition: 0.3s;
+  text-decoration: none;
 }
 
-.social-icon:hover{
-    color:#fff;
-    transform:translateY(-4px);
+.social-icon:hover {
+  color: #fff;
+  transform: translateY(-4px);
 }
 
-
-#portfolio{
-    background:#1b1b1b;
+#portfolio {
+  background: #1b1b1b;
 }
 
-#portfolio .card{
-    background:#1f1f1f;
-    border:1px solid #555;
+#portfolio .card {
+  background: #1f1f1f;
+  border: 1px solid #555;
 }
 
-.project-img{
-    height:350px;
-    object-fit:cover;
+.project-img {
+  height: 350px;
+  object-fit: cover;
 }
 
-.badge{
-    padding:10px 15px;
-    font-weight:500;
+.badge {
+  padding: 10px 15px;
+  font-weight: 500;
 }
 
 .carousel-control-next,
-.carousel-control-prev{
-    width:8%;
+.carousel-control-prev {
+  width: 8%;
+}
+
+#skills {
+  background: #1b1b1b;
+}
+
+.skill-badge {
+  background: #6c757d;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 6px;
+  padding: 10px 16px;
+  border-radius: 6px;
+}
+
+#skills h2 {
+  font-weight: 600;
+}
+
+#skills h1 {
+  font-size: 3rem;
 }
