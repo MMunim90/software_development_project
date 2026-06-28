@@ -1,3 +1,11 @@
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    scroll-margin-top: 80px;
+}
+
 body {
     background: #ffffff;
 }
@@ -93,4 +101,43 @@ footer p{
 .social-icon:hover{
     color:#ffffff;
     transform:translateY(-5px);
+}
+
+
+#contact{
+    background:#1b1b1b;
+}
+
+#contact .card{
+    background:#252525 !important;
+    border-radius:12px;
+}
+
+#contact .form-control{
+    background:#1b1b1b;
+    border:1px solid #444;
+    color:#fff;
+}
+
+#contact .form-control::placeholder{
+    color:#9b9b9b;
+}
+
+#contact .form-control:focus{
+    background:#1b1b1b;
+    color:#fff;
+    border-color:#0dcaf0;
+    box-shadow:none;
+}
+
+.social-icon{
+    color:#0dcaf0;
+    font-size:1.7rem;
+    transition:.3s;
+    text-decoration:none;
+}
+
+.social-icon:hover{
+    color:#fff;
+    transform:translateY(-4px);
 }
