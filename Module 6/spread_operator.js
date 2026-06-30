@@ -5,4 +5,6 @@ const number2 = [11, 12, 13, 14, 15, 16, 17, 18, 19]
 // console.log([...number, ...number2]);
 
 console.log(...number)
-console.log(...number)
+let maximum = Math.max(...number);
+
+console.log(`Max number is ${maximum}`)
