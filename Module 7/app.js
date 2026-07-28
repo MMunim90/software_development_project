@@ -36,5 +36,16 @@ const handleSearch = (event)=>{
 
     const inputValue = document.getElementById("search-Box").value;
 
-    console.log(inputValue);
+    // console.log(inputValue);
+
+    const container = document.getElementById("comment-container");
+
+    const p=document.createElement("p");
+    p.innerText = inputValue;
+
+    // console.log(p.innerText);
+
+    container.appendChild(p);
+    
+    document.getElementById("search-Box").value = "";
 }
