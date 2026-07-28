@@ -24,3 +24,17 @@ for(let i=0; i<allbox.length; i++){
         element.style.backgroundColor = "red";
     }
 }
+
+
+// document.getElementById("handleADD").addEventListener("click", (event)=>{
+//     console.log("Hello Boss");
+// })
+
+
+const handleSearch = (event)=>{
+    // console.log("Hello Boss");
+
+    const inputValue = document.getElementById("search-Box").value;
+
+    console.log(inputValue);
+}
