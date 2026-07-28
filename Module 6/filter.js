@@ -7,25 +7,10 @@ const products = [
 ]
 
 
-// old way
-// for(let i=0; i<products.length; i++){
-//     // console.log(products[i]);
+const result = products.filter(product => product.color == "Black");
 
-//     const element = products[i];
-//     // console.log(element);
-
-//     if(element.id == 3){
-//         console.log(element);
-//     }
-// }
-
-
-//  ES6 way
-// const result = products.find(pd => pd.color == "Black")
-const result = products.find(pd => pd.id == 30)
-
-if(result == undefined){
-    console.log("No id matches");
+if(result.length == 0){
+    console.log("No Black color phone found");
 }else{
     console.log(result);
 }
