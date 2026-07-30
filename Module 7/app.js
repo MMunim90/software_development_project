@@ -13,7 +13,7 @@ target.style.color = "red";
 
 const allbox = document.getElementsByClassName("box");
 
-console.log(allbox);
+// console.log(allbox);
 
 for(let i=0; i<allbox.length; i++){
     const element = allbox[i];
@@ -41,6 +41,7 @@ const handleSearch = (event)=>{
     const container = document.getElementById("comment-container");
 
     const p=document.createElement("p");
+    p.classList.add("child");
     p.innerText = inputValue;
 
     // console.log(p.innerText);
@@ -48,4 +49,20 @@ const handleSearch = (event)=>{
     container.appendChild(p);
     
     document.getElementById("search-Box").value = "";
+
+    // console.log(container);
+
+    const allComments = document.getElementsByClassName("child");
+
+    // console.log(allComments)
+    // using for of loop
+    for(const element of allComments){
+        // console.log(element)
+
+        element.addEventListener("click", (e)=>{
+            // console.log(e.target);
+            // console.log(e.target.parentNode);
+            e.target.parentNode.removeChild(element);
+        })
+    }
 }
