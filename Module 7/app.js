@@ -62,7 +62,21 @@ const handleSearch = (event)=>{
         element.addEventListener("click", (e)=>{
             // console.log(e.target);
             // console.log(e.target.parentNode);
-            e.target.parentNode.removeChild(element);
+
+
+            // three way to remove child from parent
+            // e.target.parentNode.removeChild(element);
+            // or this can be write as,
+            // e.target.remove();
+            // or
+            element.remove()
         })
     }
 }
+
+
+fetch("https://jsonplaceholder.typicode.com/users")
+.then(res => res.json())
+.then(data => {
+    console.log(data);
+})
