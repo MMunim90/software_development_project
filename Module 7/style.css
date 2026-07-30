@@ -20,3 +20,12 @@ input{
 #handleADD{
     padding: 10px;
 }
+
+.user{
+    padding: 20px;
+    border: 1px, solid gray;
+    width: 400px;
+    height: 550px;
+    margin: 5px;
+    background-color: burlywood;
+}
