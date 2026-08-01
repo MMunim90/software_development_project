@@ -4,10 +4,13 @@
 }
 
 .cart-container{
-    width: 50%;
+    width: 30%;
     margin: auto;
     box-shadow: 4px 4px 8px gray;
     text-align: center;
+    position: fixed;
+    top: 0px;
+    right: 0px;
 }
 
 .single-product{
