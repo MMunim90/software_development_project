@@ -5,20 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fake-Store</title>
     <link rel="stylesheet" href="./style.css" />
+    <!-- bootstrap cdn -->
+    <link
+      rel="stylesheet"
+      href="./bootstrap-5.3.8-dist/css/bootstrap.min.css"
+    />
   </head>
   <body>
     <div class="main-container">
       <div id="product-container" class="product-container"></div>
       <div class="cart-container">
-        <h4>Cart:</h4>
-        <hr>
-        <div id="cart-main-container" class="cart-main-container">
-
-        </div>
-        <hr>
-        <h2>Total: </h2>
+        <h4>Cart Item: <span id="count">0</span></h4>
+        <hr />
+        <div id="cart-main-container" class="cart-main-container"></div>
+        <hr />
+        <h2>Total: <span id="total">0</span> $</h2>
       </div>
     </div>
     <script src="./app.js"></script>
+    <!-- script file cdn -->
+    <script src="./bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./bootstrap-5.3.8-dist/js/bootstrap.js"></script>
   </body>
 </html>
