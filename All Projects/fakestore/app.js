@@ -29,12 +29,28 @@ const displayProducts = (products) => {
 
         <p><strong>Rating:</strong> ${product.rating.rate} ⭐ (${product.rating.count} reviews)</p>
 
-        <button>Buy Now</button>
-        <button>Add to Cart</button>
+        <button>Details</button>
+        <button onclick="handleAddToCart('${product.title}', ${product.price})">Add to Cart</button>
       </div>
     `;
     container.appendChild(div);
   });
 };
+
+
+const handleAddToCart = (title, price) =>{
+  const container = document.getElementById("cart-main-container");
+
+  const div = document.createElement("div");
+  div.classList.add("cart-info");
+
+  div.innerHTML = `
+  <p>${title.slice(0,9)}</p>
+  <h3>${price}</h3>
+  `
+
+  container.appendChild(div);
+}
+
 
 loadAllProduct();
